@@ -6,6 +6,8 @@
 \author{Luke Barlow}
 \date{2023-2024}
 
+\newtheorem{definition}{Definition}
+
 %---------------------------------------------------
 \begin{document}
 
@@ -87,6 +89,14 @@
 \chapter{Infinite Series}
 \section{Defining Convergent and Divergent Infinite Series}
 \section{Geometric Series}
+\begin{definition}
+A series in the form $\sum{ar^n} = a + ar + ar^2 + ar^3 + ... + ar^n ...$
+is called a geometric series with ratio $r$.
+\end{definition}
+An infinite geometric series with ratio $r$ diverges if $|r|\geq1$.
+If $|r|<1$, we can say that the series converges by the 
+\textbf{geometric series test}. The infinite sum of this series is
+\[ \sum_{n=0}^\infty ar^n = \frac{a}{1-r} \]
 \section{nth Term Test}
 \section{Integral Test}
 \section{p-series and Harmonic Series}
